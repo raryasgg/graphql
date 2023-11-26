@@ -1,3 +1,5 @@
+http://localhost:8009/graphql
+http://localhost:8009/h2-console
 query {
 allBooks{
 id 
