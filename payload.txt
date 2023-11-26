@@ -1,0 +1,41 @@
+query {
+allBooks{
+id 
+title
+desc}
+}
+
+
+
+query {
+getBook(bookId:1){
+id 
+title
+desc
+price}
+}
+
+
+
+mutation{
+createBook(book:{
+title:"my new book",
+price:567,
+pages:130,
+author:"rohit"})
+{
+id}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
